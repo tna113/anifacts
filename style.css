@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    background-color: lavender;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100vh;
+    width:100%;
+}
+
+h3 {
+    font-size: 3em;
+    font-family: 'Asset','Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top:40px;
+    left: 40px;
+    background-color: rgb(165, 238, 150);
+    padding: 20px 0;
+    border-radius: 5px;
+}
